@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <style>
-ul {
+#header {
   list-style-type: none;
   margin: 0;
   padding: 0;
   font-size: 13px;
   height: 140px;
   overflow-y: auto;
+  top: 0;
+  width: 100%;
 }
 #about {
     display: block;
     float: left;
-    padding: 10px 10px;
+    padding: 10px;
 }
 #images {
     display: block;
@@ -32,16 +34,54 @@ ul {
 img{
     vertical-align: middle;
 }
-
+#footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+#advertising {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+#business {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+#how {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+#privacy {
+    display: block;
+    float: right;
+    padding: 10px;
+}
+#terms {
+    display: block;
+    float: right;
+    padding: 10px;
+}
+#settings {
+    display: block;
+    float: right;
+    padding: 10px;
+}
 </style>
 <header>
-        <ul>
+        <ul id="header">
   <li><a id="about">About</a></li>
   <li><a id="images">Images</a></li>
   <li><a id="gmail">Gmail</a></li>
   <li><a id="store">Store</a></li>
 </ul>
-    </div>
 </header>
 <body>
     <center>
@@ -57,6 +97,13 @@ img{
     </div>
 </body>
 <footer>
-
+        <ul id="footer">
+  <li><a id="Advertising">Advertising</a></li>
+  <li><a id="Business">Business</a></li>
+  <li><a id="How">How Search Works</a></li>
+  <li><a id="Privacy">Privacy</a></li>
+  <li><a id="Terms">Terms</a></li>
+  <li><a id="Settings">Settings</a></li>
+</ul>
 </footer>
 </html>
